@@ -15,6 +15,5 @@ ctx.stroke();
 
 loadImage("img/leaves.png").then((image) => {
   ctx.drawImage(image, 50, 0, 70, 70);
-
   console.log('<img src="' + canvas.toDataURL() + '" />');
 });
